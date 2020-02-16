@@ -1,1 +1,1 @@
-# rsschool-cv
+#  https://AlekseyMinsk.github.io/rsschool-cv/cv
