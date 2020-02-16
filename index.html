@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Страница о коте</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+    <main class="content"> 
+      <section>
+        <h1>Aleksey Budanov</h1>
+        <img src="./img/tree.jpg" alt="tree">
+      </section>
+      <section>
+        <h3>Contacts</h3>
+        <ul>
+          <li>+375291591108</li>
+          <li>budanov.info@gmail.com</li>
+          <li>budanov.info - skype</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Summary</h3>
+        <p> Start a career of Junior Front-end developer with primary skill in JavaScript, gain practical experience and knowledge, learn new technologies and frameworks. Get real project experience and development skills. Become a team lead in 5 years. Full-time employment. Ready to relocate. </p>
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <p>Front-end</p> 
+        <ul>
+          <li>HTML 5 / CSS 3 </li>
+          <li>JavaScript / JQuery </li>
+          <li>React / Redux</li>
+        </ul>
+        <p>Back-end</p>
+        <ul>
+           <li>node.js</li>
+        </ul> 
+        <p>Tools</p>
+        <ul>
+          <li>Webpack</li>
+          <li>Git</li>
+        </ul>
+        <p>Light touch</p>
+        <ul>
+          <li>Cloud : AWS (EC2)</li>
+          <li>Virtualization: Vagrant</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Code examples</h3>
+        Testing React App
+        <xmp>import React from 'react';
+        import { shallow } from 'enzyme';
+        import { expect } from 'chai';
+
+        import PageNotFound from '../../../../client/components/common/page_not_found';
+
+        describe('<PageNotFound />', function() {
+          it('contains "Page not found" message', function() {
+            const wrapper = shallow(<PageNotFound />);
+            expect(wrapper.text()).to.contain('Page not found');
+          });
+        });
+
+        Love Triangles
+        module.exports = function getLoveTrianglesCount(preferences = []) {
+        var arr = [...preferences]
+         if(arr.length < 3) return 0;
+         var answer = 0;
+         var alreadyInLove = [];
+         arr.forEach((item, index) => {
+          var n = alreadyInLove.includes(index);
+          if(!n) {
+           var secondLoveIndex = item - 1;
+           if(secondLoveIndex != index) {
+            var secondLoveItem = arr[secondLoveIndex];
+            if(secondLoveItem) {
+             var thirdLoveIndex = secondLoveItem - 1;
+             if(thirdLoveIndex != secondLoveIndex && thirdLoveIndex != index) {
+              var thirdLoveItem = arr[thirdLoveIndex];
+              if(thirdLoveItem) {
+               if((thirdLoveItem - 1) === index) {
+                answer++;
+                alreadyInLove = [...alreadyInLove, index, secondLoveIndex, thirdLoveIndex];
+               }
+              }
+             }
+            }
+           }
+          } 
+         });
+         return answer;
+        }</xmp>
+      </section>
+      <section>
+        <h3>Experience</h3>
+        Front-end developer – MageWorx;
+        Front-end internship – IBA;
+        alekseyminsk.github.io/Space-odyssey – game, based on Phaser;
+        alekseyminsk.github.io/Match-Match-Game/index.html – game, based on pure Java Script;
+      </section>
+      <section>
+        <h3>Education</h3>
+        Belarusian National Technical University, Minsk
+        Bachelor of Retail Store Equipment Technologies - engineer, January 2018
+        <h3>English skill</h3>
+        Intermediate level
+      </section>
+    </main>
+  </body>
+</html>
