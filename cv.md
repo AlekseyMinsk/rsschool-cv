@@ -13,13 +13,19 @@ implement all my expertise to improve current processes along with taking the pr
 * React / Redux
 * Angular
 * NodeJS
+* Docker
  
 ### Code examples
 
 ### Experience
+ - ##### Web Application Developer - ALDI Technology Hub, 11.2023 - current
+ - ##### Technical Support sprcialist -> Front-end developer – MageWorx, 12.2018 - 10.09.2023;
+ - ##### Front-end internship – IBA, 2018;
 
 ### Education
+##### Belarusian National Technical University, Minsk 
+  - Bachelor of Retail Store Equipment Technologies - engineer, January 2018
 
 ### English
 
-B2 both comunnication and writing skills. Experience of working in an international team.
+B2 both communication and writing skills. Experience of working in an international team.
