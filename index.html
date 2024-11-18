@@ -13,31 +13,32 @@
     <header class="header">
       <nav class="navigation">
         <ul class="nav-links">
-          <li>Contact Info</li>
-          <li>Summary</li>
-          <li>Skills</li>
-          <li>Code examples</li>
-          <li>Experience</li>
-          <li>Education</li>
-          <li>English</li>
+          <li><a href="#contacts">Contact Info</a></li>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code examples</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#lang">English</a></li>
         </ul>
       </nav>
     </header>
     <main class="main">
       <h1 class="h1-title">Aleksey Budanov</h1>
-      <article>
+      <img src="images/main-logo.jpg" alt="main-logo">
+      <article id="contacts">
         <h2>Contact Info</h2>
         <p>
           budanov.info@gmail.com
         </p>
       </article>
-      <article>
+      <article id="summary">
         <h2>Summary</h2>
         <p>
           Self-motivated and experienced Web Applications developer with deep knowledge of modern Web Technologies and Agile methodologies. I gained development skills on real projects, courses and at university and prone to constant learning. I am eager to join a team as Front-end developer and implement all my expertise to improve current processes along with taking the product to the next level.
         </p>
       </article>
-      <article>
+      <article  id="skills">
         <h2>Skills</h2>
         <ul>
           <li>TypeScript</li>
@@ -47,9 +48,8 @@
           <li>Docker</li>
         </ul>
       </article>
-      <article>
+      <article id="code">
         <h2>Code examples</h2>
-        <p>
           <pre>
             const jwt = require('jsonwebtoken');
             const { secret } = require('./config.js');
@@ -65,36 +65,42 @@
                 return response.status(400).json({message: 'Not authorized'})
               }
             }
-</pre>
-        </p>
+          </pre>
       </article>
-      <article>
+      <article id="experience">
         <h2>Experience</h2>
-        <p>
           <ul>
             <li>Web Application Developer - ALDI Technology Hub, 11.2023 - current</li>
             <li>Technical Support sprcialist -> Front-end developer – MageWorx, 12.2018 - 10.09.2023;</li>
             <li>Front-end internship – IBA, 2018;</li>
           </ul>
-        </p>
       </article>
-      <article>
-        <h2>Education</h2>
+      <article id="education">
+        <h2> Education</h2>
         <p>Belarusian National Technical University, Minsk
           Bachelor of Retail Store Equipment Technologies - engineer, January 2018</p>
       </article>
-      <article>
+      <article id="cources">
+        <h2>Cources & projects</h2>
+        <ul>
+          <li>Online courses - Chrome dev tools, Codecademy, Udemy</li>
+          <li>Front-end internship – IBA (React, Redux, Rest API)</li>
+          <li><a href="https://alekseyminsk.github.io/Space-odyssey/">Space odyssey</a></li>
+        </ul>
+      </article>
+      <article id="lang">
         <h2>English</h2>
         <p>B2 both communication and writing skills. Experience of working in an international team.</p>
       </article>
     </main>
     <footer class="footer">
-      <div><span>November 2024</span>
-      <a href="https://github.com/AlekseyMinsk/rsschool-cv/tree/master" target="_blank">Aleksey Budanov</a>
+      <div class="private-info">
+        <span>November 2024</span>
+        <a href="https://github.com/AlekseyMinsk/rsschool-cv/tree/master" target="_blank">Aleksey Budanov</a>
       </div>
-      <div>
+      <div class="school-link">
         <a href="https://rs.school/courses/javascript" target="_blank">
-            <img src="images/rss-logo.svg" alt="RSS logo" loading="lazy" width="70">
+            <img src="images/rss-logo.svg" alt="RSS logo" loading="lazy">
         </a>
     </div>
     </footer>
